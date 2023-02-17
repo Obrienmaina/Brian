@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(148, 148, 148);
+    margin: 0px;
+}
+.topcontainer{
+    background-color: rgb(188, 255, 233);
+
+}
+
+/* ==================================display property====================================== */
+/* 
+inline
+block
+inline-block
+none 
+*/
+
+/* -----------------------------------------relative position------------------------------ */
+/* relative to its previous position */
+/* .one{
+    background-color: blue;
+    width: 410px;
+    height: 410px;
+}
+
+.two{
+    background-color: crimson;
+    width: 410px;
+    height: 410px;
+    position: relative;
+    left: 410px;
+    bottom: 410px;
+}
+
+.three{
+    background-color: darkgreen;
+    width: 410px;
+    height: 410px;
+    position: relative;
+    left: 820px;
+    bottom: 820px;
+} */
+
+/* 
+.one{
+    background-color: red;
+    width: 418px;
+    height: 410px;
+    display: inline-block;
+    position: relative;
+    left: 836px;
+}
+
+.three{
+    background-color: blue;
+    width: 418px;
+    height: 410px;
+    display: inline-block;
+    position: relative;
+    right: 418px;
+}
+
+
+.two{
+    background-color: yellow;
+    width: 418px;
+    height: 410px;
+    display: inline-block;
+    position: relative;
+    right: 418px;
+
+
+} */
+
+/* -----------------------------------------absolute position------------------------------ */
+/* absolute postion to its parent */
+
+.absolute{
+    background-color: rgb(255, 226, 167);
+}
+ .img{
+    position: absolute;
+    left: 400px;
+ }
