@@ -80,5 +80,39 @@ none
 }
  .img{
     position: absolute;
-    left: 400px;
+    right: 400px;
  }
+
+ .four{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 500px;
+ }
+
+ .nos{color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 36px;
+
+
+
+}
+
+ .five{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 43, 43);
+    position: absolute;
+    left: 300px;
+ }
+
+ .six{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(147, 226, 43);
+    position: absolute;
+    left: 100px;
+ }
+ 
