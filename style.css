@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+
+.topcontainer{
+    position: relative;
+    padding-top: 50px;
+}
+.bottomcloud{
+    position: absolute;
+    bottom: 300px;
+}
+.topcloud{
+    position: absolute;
+    top: 5px;
+    right: 300px;
+}
+
+body{
+    background-color: rgb(148, 148, 148);
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+.topcontainer{
+    background-color: rgb(188, 255, 233);
+
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
