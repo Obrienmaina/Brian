@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="tut.css">
+</head>
+<body>
+    <!-- Attribute selecors -->
+    <!-- li[class^="a"] matches any attribute value which starts with a, so matches the first two list items.
+    li[class$="a"] matches any attribute value that ends with a, so matches the first and third list item.
+    li[class*="a"] matches any attribute value where a appears anywhere in the string, so it matches all of our list items. -->
+    <h1>Attribute substring matching selectors</h1>
+<ul>
+    <li class="a">Item 1</li>
+    <li class="ab">Item 2</li>
+    <li class="bca">Item 3</li>
+    <li class="bcabc">Item 4</li>
+</ul>
+
+<!-- Specificity -->
+<!-- id.class.text -->
+<!-- Why not to use ids in css -->
+<!--  Using the same ID multiple times in a document may appear to work for styling 
+    purposes, but don't do this. It results in invalid code, and will cause strange 
+    behavior in many places. you'd rather use 2 classes-->
+
+
+<!-- Universal Selectors -->
+<!-- The universal selector is indicated by an asterisk (*). 
+    It selects everything in the document (or inside the parent 
+    element if it is being chained together with another element 
+    and a descendant combinator). In the following example, we 
+    use the universal selector to remove the margins on all elements. 
+    Instead of the default styling added by the browser — which spaces 
+    out headings and paragraphs with margins — everything is close together.
+
+ -->
+
+
+<p>Pseudo class</p>
+<!-- A pseudo-class is a selector that selects elements that are in a specific state, 
+    e.g. they are the first element of their type, or they are being hovered over 
+    by the mouse pointer. They tend to act as if you had applied a class to some 
+    part of your document, often helping you cut down on excess classes in your 
+    markup, and giving you more flexible, maintainable code.
+
+Pseudo-classes are keywords that start with a colon. -->
+
+<!--  :first-child pseudo-class selector — this will always target the first child element in the article
+
+        :last-child CSS pseudo-class represents the last element among a group of sibling elements.
+
+        :active CSS pseudo-class represents an element (such as a button) that is being activated by the 
+        user. When using a mouse, "activation" typically starts when the user presses down the primary
+         mouse button.
+
+         :any-link CSS pseudo-class selector represents an element that acts as the source anchor of a 
+         hyperlink, independent of whether it has been visited. In other words, it matches every <a> 
+         or <area> element that has an href attribute. Thus, it matches all elements that match :link or :visited.
+
+         :autofill CSS pseudo-class matches when an <input> element has its value autofilled by the browser. 
+         The class stops matching if the user edits the field.
+
+         :checked CSS pseudo-class selector represents any radio (<input type="radio">), checkbox (<input type="checkbox">), 
+         or option (<option> in a <select>) element that is checked or toggled to an on state.
+        
+        :default CSS pseudo-class selects form elements that are the default in a group of related elements.
+
+        :first-of-type CSS pseudo-class represents the first element of its type among a group of sibling elements.
+
+        :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally 
+        triggered when the user clicks or taps on an element or selects it with the keyboard's Tab key
+
+        :focus-visible pseudo-class applies while an element matches the :focus pseudo-class and the UA (User Agent) 
+        determines via heuristics that the focus should be made evident on the element. (Many browsers show 
+        a "focus ring" by default in this case.)
+
+        :focus-within CSS pseudo-class matches an element if the element or any of its descendants are focused. 
+        In other words, it represents an element that is itself matched by the :focus pseudo-class or has 
+        a descendant that is matched by :focus
+        
+        :has() CSS pseudo-class represents an element if any of the relative selectors that are passed as an argument 
+        match at least one element when anchored against this element. This pseudo-class presents a way of selecting 
+        a parent element or a previous sibling element with respect to a reference element by taking a relative 
+        selector list as an argument.
+
+        :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does
+         not necessarily activate it. It is generally triggered when the user hovers over an element with 
+         the cursor (mouse pointer)
+        
+        :invalid CSS pseudo-class represents any <form>, <fieldset>, <input> or other <form> element whose contents fail to validate
+
+        :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected 
+        by one of the selectors in that list.
+
+        
+
+-->
+
+</body>
+</html>
